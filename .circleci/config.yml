@@ -48,8 +48,8 @@ workflows:
   build-and-deploy:
     jobs:
       - build-and-deploy:
-          context: aws
+          context: App
           filters:
             branches:
               only:
-                - main
+                - master
